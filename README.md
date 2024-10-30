@@ -16,9 +16,9 @@ A basic backend API built with FastAPI and PostgreSQL for a social platform wher
 ## Tech Stack
   - FastAPI: For creating a high-performance API.
   - PostgreSQL: Database to store users, posts, and votes.
+  - JWT Authentication: JSON Web Tokens (JWTs) are generated on each login, allowing secure, time-bound access and ensuring that users are authorized to perform actions.
 
-JWT Authentication: JSON Web Tokens (JWTs) are generated on each login, allowing secure, time-bound access and ensuring that users are authorized to perform actions.
-Getting Started
-Prerequisites
-Python (3.7 or higher)
-PostgreSQL database
+# Getting Started
+## Prerequisites
+- Python (3.7 or higher)
+- PostgreSQL database
